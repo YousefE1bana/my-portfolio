@@ -4,7 +4,7 @@ A cybersecurity engineering portfolio with three distinct experiences, one share
 
 ## Live site
 
-**Deployment pending:** [yousefe1bana.github.io/my-portfolio](https://yousefe1bana.github.io/my-portfolio/). The production URL is prepared; publication requires a manual GitHub Actions run.
+[Visit the live portfolio](https://yousefe1bana.github.io/my-portfolio/).
 
 ## Preview
 
@@ -53,7 +53,7 @@ Optional asset-maintenance scripts require Python, Pillow and (for CV regenerati
 
 The target repository is `YousefE1bana/my-portfolio`; Vite's base is `/my-portfolio/`. Navigation uses anchors, so no SPA routing workaround is required. `dist/` is generated and should not be committed.
 
-The [Pages workflow](.github/workflows/pages.yml) installs with `npm ci`, verifies and builds once, uploads `dist`, then deploys with the required Pages permissions. Actions are pinned to commit SHAs. It runs **only by manual dispatch**, never on push. When publication is approved, choose **GitHub Actions** as the Pages source and run the workflow. See [Vite's Pages guide](https://vite.dev/guide/static-deploy.html#github-pages).
+The [Pages workflow](.github/workflows/pages.yml) installs with `npm ci`, verifies and builds once, uploads `dist`, then deploys with the required Pages permissions. Actions are pinned to commit SHAs. GitHub Pages uses **GitHub Actions** as its source. The workflow runs **only by manual dispatch**, never on push. To publish an update, run it from the repository's Actions tab. See [Vite's Pages guide](https://vite.dev/guide/static-deploy.html#github-pages).
 
 ## Structure
 

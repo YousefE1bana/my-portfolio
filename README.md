@@ -62,7 +62,7 @@ The [Pages workflow](.github/workflows/pages.yml) installs with `npm ci`, verifi
 - `src/styles/`: theme tokens and distinct professional/scrapbook treatments.
 - `public/`: optimized runtime images, original credentials, CV and social/browser assets.
 - `assets/source/`: retained lossless club-logo export masters, outside the deployed site.
-- `docs/`: asset provenance and the [pre-release audit](docs/PRE-RELEASE-AUDIT.md).
+- `docs/`: asset provenance, integrity manifests and README previews.
 
 ## Assets and attribution
 

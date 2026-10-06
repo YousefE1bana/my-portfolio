@@ -17,3 +17,7 @@ playwright-report/
 test-results/
 *.tsbuildinfo
 Thumbs.db
+
+# Internal working notes are retained locally, not published.
+docs/PRE-RELEASE-AUDIT.md
+docs/PROJECT-SOURCES.json

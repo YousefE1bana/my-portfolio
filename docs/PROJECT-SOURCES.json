@@ -1,0 +1,22 @@
+{
+  "auditedLocalDate": "2026-10-06",
+  "profile": "https://github.com/YousefE1bana",
+  "publicRepositoryCount": 7,
+  "implementedPortfolioProjectCount": 7,
+  "repositories": [
+    {"name":"Net-Shield","url":"https://github.com/YousefE1bana/Net-Shield","language":"Python","inspected":"Public repository metadata and V2 README","status":"2.0.0rc1","portfolioId":"netshield","boundary":"One NetShield project, including its broader isolated SOC home-lab context. Manual nftables response; observe-only default."},
+    {"name":"msi-ec-tui","url":"https://github.com/YousefE1bana/msi-ec-tui","language":"Rust","inspected":"Public repository metadata and README","status":"v1.0.1","portfolioId":"msi-ec-tui","boundary":"Capability-aware Linux MSI EC tooling; hardware support depends on device and driver."},
+    {"name":"solar-odyssey","url":"https://github.com/YousefE1bana/solar-odyssey","language":"C++","inspected":"Public repository metadata and README","status":"v1.1.0 Windows release","portfolioId":"solar-odyssey","boundary":"C++17/OpenGL 4.5, 31-body educational and stylized exploration sandbox."},
+    {"name":"al-tayyibat","url":"https://github.com/YousefE1bana/al-tayyibat","language":"TypeScript","inspected":"Public repository metadata, README and actual homepage","status":"v1.0.0","portfolioId":"al-tayyibat","demo":"https://yousefe1bana.github.io/al-tayyibat/","boundary":"Arabic RTL static food-reference PWA with 385 food entries."},
+    {"name":"shifaa-project","url":"https://github.com/YousefE1bana/shifaa-project","language":"TypeScript","inspected":"Public repository metadata and source tree; no root README","status":"In development","portfolioId":"shifaa","boundary":"CV-backed six-person team leadership; authentic proposed architecture, no production demo claimed."},
+    {"name":"my-portfolio","url":"https://github.com/YousefE1bana/my-portfolio","language":null,"inspected":"Public repository metadata and current local implementation","status":"Public repository empty; implemented locally","portfolioId":"my-portfolio","boundary":"Local React/TypeScript/Vite implementation; no published demo asserted."},
+    {"name":"Akher-Kheit","url":"https://github.com/YousefE1bana/Akher-Kheit","language":null,"inspected":"Public repository metadata; empty repository","status":"Reserved repository","portfolioId":null,"boundary":"Shown as a reserved workshop record, excluded from the implemented-project count; no purpose inferred."}
+  ],
+  "additionalLocalProject": {
+    "portfolioId":"e-banking-security",
+    "name":"E-Banking Security System — NeuralGuard",
+    "evidence":"Existing supplied CV, award record and real e-banking.png screenshot",
+    "github":null,
+    "boundary":"University prototype. CV-reported dataset evaluation and ECU Project Day award; no invented repository or production guarantees."
+  }
+}

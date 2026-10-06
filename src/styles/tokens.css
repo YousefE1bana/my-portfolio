@@ -1,0 +1,108 @@
+/* ─────────────────────────────────────────────────────────
+   Design tokens — dark (default), light & After Hours
+   ───────────────────────────────────────────────────────── */
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #15110c;
+  --surface: #241e18;
+  --surface-raised: #2b241d;
+  --text: #f1dfc5;
+  --muted: #b39c7b;
+  --border: #8c7a66;
+  --shadow: #050403;
+  --dot: rgba(241, 223, 197, 0.14);
+  --header-bg: rgba(21, 17, 12, 0.88);
+  --overlay: rgba(5, 4, 3, 0.82);
+
+  --yellow: #d8a438;
+  --orange: #f45d2d;
+  --pink: #d87ea2;
+  --blue: #5facd3;
+  --green: #78a86b;
+
+  /* text on top of accent fills */
+  --on-accent: #15110c;
+
+  --shadow-size: 5px;
+  --shadow-hover: 7px;
+  --shadow-press: 2px;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --border-w: 2px;
+  --yellow-ink: var(--yellow);
+  --orange-ink: var(--orange);
+  --pink-ink: var(--pink);
+  --blue-ink: var(--blue);
+  --green-ink: var(--green);
+  --display-face: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --reveal-duration: 0.28s;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --surface-raised: #e9edf2;
+  --text: #17191c;
+  --muted: #626a75;
+  --border: #34383d;
+  --shadow: #17191c;
+  --dot: rgba(23, 25, 28, 0.13);
+  --header-bg: rgba(244, 246, 248, 0.9);
+  --overlay: rgba(23, 25, 28, 0.7);
+
+  --yellow: #e0a52e;
+  --orange: #f0562a;
+  --pink: #d97a9e;
+  --blue: #4fa3cf;
+  --green: #6f9f63;
+
+  --on-accent: #17191c;
+  --yellow-ink: #805600;
+  --orange-ink: #b33712;
+  --pink-ink: #a43762;
+  --blue-ink: #246d94;
+  --green-ink: #3d7332;
+}
+
+:root[data-theme="after-hours"] {
+  color-scheme: dark;
+  --bg: #11120f;
+  --surface: #191d1a;
+  --surface-raised: #282a23;
+  --text: #eee4d3;
+  --muted: #c4bba8;
+  --border: #8a795d;
+  --shadow: #070a08;
+  --dot: rgba(187, 180, 237, 0.08);
+  --header-bg: rgba(15, 19, 19, 0.94);
+  --overlay: rgba(3, 8, 18, 0.9);
+  --yellow: #edb875;
+  --orange: #efa58b;
+  --pink: #dcb7cb;
+  --blue: #bbb4ed;
+  --green: #a9c4b5;
+  --on-accent: #0c1424;
+  --shadow-size: 0px;
+  --shadow-hover: 0px;
+  --shadow-press: 0px;
+  --border-w: 1px;
+  --radius: 20px;
+  --radius-sm: 12px;
+  --display-face: Georgia, "Times New Roman", serif;
+  --reveal-duration: 0.6s;
+}
+
+@media (max-width: 640px) {
+  :root,
+  :root[data-theme="dark"],
+  :root[data-theme="light"] {
+    --shadow-size: 3px;
+    --shadow-hover: 5px;
+    --shadow-press: 1px;
+    --radius: 12px;
+  }
+}

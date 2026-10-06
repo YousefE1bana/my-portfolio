@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yousefe1bana.github.io/my-portfolio/sitemap.xml

@@ -1,0 +1,19 @@
+node_modules
+dist
+.DS_Store
+*.log
+
+.local-backup/
+.portfolio-*.py
+
+# Private development and intake material; deployed assets remain in public/.
+.env
+.env.*
+!.env.example
+.codex/
+.workbench/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+Thumbs.db

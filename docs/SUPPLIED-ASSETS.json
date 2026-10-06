@@ -1,0 +1,122 @@
+[
+  {
+    "source": "NetShield.png",
+    "file": "public/images/projects/netshield.webp",
+    "width": 1600,
+    "height": 900,
+    "bytes": 60834,
+    "sha256": "4360630dadae6cb70ccf4c95f8d408f2e4066e1b09e17c05db85e726e05636c6"
+  },
+  {
+    "source": "NetShield.png",
+    "file": "public/images/projects/netshield-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 13466,
+    "sha256": "16be4e2181ad8def987d372e471945d3b2855c596f7d0afe9d81f0b36f1267fa"
+  },
+  {
+    "source": "solar-odyssey.png",
+    "file": "public/images/projects/solar-odyssey.webp",
+    "width": 1600,
+    "height": 900,
+    "bytes": 116322,
+    "sha256": "75d5079b2ce0429b8904bb092dc383674a9db73269cf84d7a6a6505113eeffe3"
+  },
+  {
+    "source": "solar-odyssey.png",
+    "file": "public/images/projects/solar-odyssey-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 27954,
+    "sha256": "8b167b041783d00f011f64951cbcae0c8976f6ec4bdbe13505c98bebfb03977e"
+  },
+  {
+    "source": "al-tayibat.png",
+    "file": "public/images/projects/al-tayyibat.webp",
+    "width": 1600,
+    "height": 840,
+    "bytes": 66176,
+    "sha256": "ab9039a1d1b8966a7428ac2cbf851ae7badc4d55d4084a7a2c1f5e592f9f9448"
+  },
+  {
+    "source": "al-tayibat.png",
+    "file": "public/images/projects/al-tayyibat-640.webp",
+    "width": 640,
+    "height": 336,
+    "bytes": 19552,
+    "sha256": "e72854e15b400aac83e3fe7f43aeb7426a2fe0f07e66d00dba800c6143d9810d"
+  },
+  {
+    "source": "e-banking.png",
+    "file": "public/images/projects/e-banking.webp",
+    "width": 1600,
+    "height": 900,
+    "bytes": 35652,
+    "sha256": "9edf387e8bd4409e7aacc5481f37d45b5e391d553bc72ee10fef7451b95ef234"
+  },
+  {
+    "source": "e-banking.png",
+    "file": "public/images/projects/e-banking-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 10940,
+    "sha256": "2f35298b6ff7d6d6bb4c247aa1b4be6f3fa14c898b293fe8af2f851eedffb1b6"
+  },
+  {
+    "source": "assets/source/clubs/real-madrid.png",
+    "file": "public/images/clubs/real-madrid.webp",
+    "width": 240,
+    "height": 321,
+    "bytes": 36578,
+    "sha256": "4cf1db363cf3d845c404e2d807c0b01a4f02a0063b8e88aad81a04d5153c8182"
+  },
+  {
+    "source": "assets/source/clubs/al-ahly.png",
+    "file": "public/images/clubs/al-ahly.webp",
+    "width": 240,
+    "height": 290,
+    "bytes": 33744,
+    "sha256": "f733fbd26d037f2010e283fd077a2d20bb285f9aa79b7caf6f51121ef46e1f37"
+  },
+  {
+    "source": "Arsenal.webp",
+    "file": "public/images/clubs/arsenal.webp",
+    "width": 240,
+    "height": 283,
+    "bytes": 22558,
+    "sha256": "5fb9d1dcefc4a30ca0548f8f28e8103e107f54cbea20324fa5f594c3274e8470"
+  },
+  {
+    "source": "RealMadrid.jpg",
+    "file": "assets/source/clubs/real-madrid.png",
+    "width": 392,
+    "height": 524,
+    "bytes": 311322,
+    "sha256": "3fbbd168a2a97b31081e224c684c2045559f0f4180ee7eb7ccf12b26f8cc8ea4",
+    "backgroundRemoved": true
+  },
+  {
+    "source": "alahly.jpg",
+    "file": "assets/source/clubs/al-ahly.png",
+    "width": 297,
+    "height": 359,
+    "bytes": 219676,
+    "sha256": "5a651b223b3ce8d0d925e03baf7d8206b91253f66f0d665bd3aa3b54bc57a48f",
+    "backgroundRemoved": true
+  },
+  {
+    "source": "Certificate_Yousef_Osama_Abdelhameed_NSF-26-005.png",
+    "file": "public/certificates/innovera-network-security.png",
+    "sha256": "c6b15b7747e8bda0c739a9b8b929709f45bfb67201d99f55726cba34f2cf24d9",
+    "bytes": 728040
+  },
+  {
+    "source": "Certificate_Yousef_Osama_Abdelhameed_NSF-26-005.png",
+    "file": "public/certificates/thumbnails/innovera-network-security.webp",
+    "width": 640,
+    "height": 495,
+    "bytes": 26724,
+    "sha256": "6af19f94f295b9ccb108bb0ecaed0410557c4ca2e2f3589d05bc439b1e90450f"
+  }
+]

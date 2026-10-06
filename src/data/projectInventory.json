@@ -1,0 +1,190 @@
+[
+  {
+    "id": "netshield",
+    "name": "NetShield",
+    "subtitle": "SOC Attack & Detection Home Lab",
+    "period": "2026 · V2 October",
+    "role": "Project author · individual university project",
+    "domain": "Network detection & response",
+    "category": "Cybersecurity",
+    "status": "2.0.0rc1 · local / lab",
+    "stack": [
+      "Python",
+      "Flask",
+      "Scapy",
+      "SQLite",
+      "Linux",
+      "nftables"
+    ],
+    "summary": "A single-host security console that turns network activity into evidence, investigations and bounded manual response.",
+    "highlights": [
+      "Authenticated operations console with durable alerts, incidents, investigation notes and flow evidence.",
+      "25 versioned indicators and 33 offline scenarios; replay and PCAP analysis stay separate from live response authority.",
+      "Manual nftables actions use expiry, rollback and kernel readback. Observe-only is the default.",
+      "The broader home lab includes isolated Kali, Ubuntu and Metasploitable VMs plus Splunk ingestion and SPL investigations. This is the context around NetShield, not a second project or a claimed Splunk integration."
+    ],
+    "result": "V2 source and operator-recorded Linux VM acceptance are available in the repository. Fresh-install Linux acceptance remains a separate gate.",
+    "accent": "blue",
+    "featured": true,
+    "image": "images/projects/netshield.webp",
+    "imageAlt": "Supplied NetShield operations console showing network overview and manual-only response",
+    "github": "https://github.com/YousefE1bana/Net-Shield"
+  },
+  {
+    "id": "e-banking-security",
+    "name": "E-Banking Security System",
+    "subtitle": "NeuralGuard · university prototype",
+    "period": "Oct. – Dec. 2025",
+    "domain": "Application security & fraud detection",
+    "category": "Cybersecurity",
+    "status": "University project",
+    "stack": [
+      "Python",
+      "React",
+      "XGBoost",
+      "Kafka",
+      "Spark"
+    ],
+    "summary": "A university banking prototype combining transaction monitoring, application security and fraud-model evaluation.",
+    "highlights": [
+      "Evaluated models on 24.4 million transactions; XGBoost reached the CV-reported 94.69% ROC-AUC.",
+      "JWT and OTP authentication, role-based access, rate limiting and audit logging."
+    ],
+    "result": "First place at ECU Project Day, December 30, 2025. The reported model score is a dataset evaluation, not a production guarantee.",
+    "award": "1st Place · ECU Project Day",
+    "accent": "pink",
+    "featured": true,
+    "image": "images/projects/e-banking.webp",
+    "imageAlt": "Supplied NeuralGuard landing-page screenshot for the university E-Banking Security System"
+  },
+  {
+    "id": "shifaa",
+    "name": "SHIFAA",
+    "subtitle": "Graduation project · proposed architecture",
+    "period": "2026 – Present",
+    "role": "Product Owner, Team Lead & Architecture Lead",
+    "domain": "Digital health & system architecture",
+    "category": "Software",
+    "status": "In development",
+    "stack": [
+      "TypeScript",
+      "System architecture",
+      "Security requirements",
+      "Product ownership"
+    ],
+    "summary": "An Egyptian digital-health platform connecting patients, clinics, pharmacies, hospitals and laboratories.",
+    "highlights": [
+      "Leading a six-person team with responsibility for product scope, architecture and delivery coordination.",
+      "Public workspace includes role applications, shared packages, services, specifications and Supabase migrations."
+    ],
+    "result": "Ongoing graduation work. The real diagram documents the proposed architecture; it does not imply a production deployment.",
+    "accent": "green",
+    "featured": true,
+    "image": "images/shifaa-architecture.webp",
+    "imageAlt": "Actual proposed SHIFAA architecture: role applications, core API, shared packages, PostgreSQL and isolated services",
+    "github": "https://github.com/YousefE1bana/shifaa-project"
+  },
+  {
+    "id": "solar-odyssey",
+    "name": "Solar Odyssey",
+    "subtitle": "Scientific exploration sandbox",
+    "period": "2026",
+    "role": "Project author",
+    "domain": "Graphics & simulation",
+    "category": "Graphics",
+    "status": "v1.1.0 · Windows release",
+    "stack": [
+      "C++17",
+      "OpenGL 4.5",
+      "CMake",
+      "Ninja"
+    ],
+    "summary": "A solar-system sandbox with 31 celestial bodies, free-flight exploration, visual layers and a photo mode.",
+    "highlights": [
+      "HDR, bloom, camera-relative rendering and an explicit final sRGB pass.",
+      "Camera, settings, gallery and save flows accompany the scientific exploration view."
+    ],
+    "result": "A downloadable Windows release. Educational and stylized; not a precision ephemeris instrument.",
+    "accent": "blue",
+    "featured": true,
+    "image": "images/projects/solar-odyssey.webp",
+    "imageAlt": "Supplied Solar Odyssey main menu with a rendered Earth",
+    "github": "https://github.com/YousefE1bana/solar-odyssey"
+  },
+  {
+    "id": "al-tayyibat",
+    "name": "Al-Tayyibat",
+    "subtitle": "Arabic food-reference PWA",
+    "period": "2026",
+    "role": "Project author",
+    "domain": "Arabic product design & web software",
+    "category": "Software",
+    "status": "v1.0.0 · live",
+    "stack": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "PWA"
+    ],
+    "summary": "An Arabic, right-to-left food reference documenting a diet’s rules across 385 food entries.",
+    "highlights": [
+      "Search aliases, filters, source notes, ingredient and recipe details, local favorites and a shopping list.",
+      "Offline behavior uses a bounded recent-image cache; no accounts, analytics or backend."
+    ],
+    "result": "A public static PWA with a printable guide. A reference to documented diet rules, not individualized medical advice.",
+    "accent": "green",
+    "featured": true,
+    "image": "images/projects/al-tayyibat.webp",
+    "imageAlt": "Supplied Al-Tayyibat Arabic interface and food-catalog presentation",
+    "github": "https://github.com/YousefE1bana/al-tayyibat",
+    "demo": "https://yousefe1bana.github.io/al-tayyibat/"
+  },
+  {
+    "id": "msi-ec-tui",
+    "name": "MEC — MSI EC Control Center",
+    "subtitle": "msi-ec-tui",
+    "period": "2026",
+    "role": "Project author",
+    "domain": "Linux hardware tooling",
+    "category": "Tools",
+    "status": "v1.0.1",
+    "stack": [
+      "Rust",
+      "Cargo",
+      "Linux sysfs",
+      "TOML"
+    ],
+    "summary": "A capability-aware Linux terminal interface for supported MSI embedded-controller hardware.",
+    "highlights": [
+      "Seven screens with READY / READ-ONLY compatibility states.",
+      "Confirmed hardware changes are validated and read back; profile transactions support rollback."
+    ],
+    "result": "Release archives and Linux packages are published with checksums. Hardware support depends on the detected device and driver.",
+    "accent": "orange",
+    "github": "https://github.com/YousefE1bana/msi-ec-tui"
+  },
+  {
+    "id": "my-portfolio",
+    "name": "This portfolio",
+    "subtitle": "Three dimensions, one person",
+    "period": "2026",
+    "role": "Owner & builder",
+    "domain": "Frontend design & engineering",
+    "category": "Software",
+    "status": "Release candidate · GitHub Pages",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Framer Motion"
+    ],
+    "summary": "The site you’re exploring: technical, editorial and personal experiences over one source of truth.",
+    "highlights": [
+      "Theme persistence, responsive layouts, keyboard-accessible disclosures and a certificate lightbox.",
+      "After Hours loads its scrapbook code and imagery when selected."
+    ],
+    "result": "Three designed experiences over one shared project and credentials system. Prepared for GitHub Pages publication.",
+    "accent": "pink",
+    "github": "https://github.com/YousefE1bana/my-portfolio"
+  }
+]

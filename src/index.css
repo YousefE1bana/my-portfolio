@@ -1,0 +1,250 @@
+@import "tailwindcss";
+@import "./styles/tokens.css";
+
+@theme {
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --breakpoint-xs: 26rem;
+}
+
+/* ───────────── Base ───────────── */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--yellow);
+  color: var(--on-accent);
+}
+
+:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@layer base {
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+}
+
+/* ───────────── Utilities ───────────── */
+.container-x {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2.5rem);
+}
+
+.section {
+  padding-block: clamp(4rem, 7vw, 5.5rem);
+  scroll-margin-top: 84px;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.dot-grid {
+  background-image: radial-gradient(var(--dot) 1.2px, transparent 1.2px);
+  background-size: 16px 16px;
+}
+
+.hairline {
+  border-color: var(--border);
+}
+
+/* ───────────── Neo-brutalist primitives ───────────── */
+.brut {
+  background: var(--surface);
+  border: var(--border-w) solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-size) var(--shadow-size) 0 var(--shadow);
+}
+
+.brut-sm {
+  border-radius: var(--radius-sm);
+}
+
+.brut-flat {
+  background: var(--surface);
+  border: var(--border-w) solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* Uses the independent `translate` property so framer-motion's inline `transform`
+   never cancels the tactile lift. */
+.brut-interactive {
+  translate: 0 0;
+  transition:
+    translate 0.18s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.18s cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 0.18s ease;
+}
+.brut-interactive:hover {
+  translate: -2px -2px;
+  box-shadow: var(--shadow-hover) var(--shadow-hover) 0 var(--shadow);
+}
+.brut-interactive:active {
+  translate: 2px 2px;
+  box-shadow: var(--shadow-press) var(--shadow-press) 0 var(--shadow);
+}
+
+/* Accent fills */
+.fill-yellow { background: var(--yellow); color: var(--on-accent); }
+.fill-orange { background: var(--orange); color: var(--on-accent); }
+.fill-pink   { background: var(--pink);   color: var(--on-accent); }
+.fill-blue   { background: var(--blue);   color: var(--on-accent); }
+.fill-green  { background: var(--green);  color: var(--on-accent); }
+
+.text-yellow { color: var(--yellow-ink); }
+.text-orange { color: var(--orange-ink); }
+.text-pink   { color: var(--pink-ink); }
+.text-blue   { color: var(--blue-ink); }
+.text-green  { color: var(--green-ink); }
+
+.bg-accent-soft {
+  background: color-mix(in srgb, var(--accent) 16%, var(--surface));
+}
+
+/* Editorial link underline */
+.link-editorial {
+  position: relative;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease;
+  padding-bottom: 1px;
+}
+.link-editorial:hover {
+  background-size: 0% 2px;
+  background-position: 100% 100%;
+}
+
+/* Nav link underline (animates in) */
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  padding: 0.35rem 0.1rem;
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--yellow);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.nav-link:hover,
+.nav-link[aria-current="location"] {
+  color: var(--text);
+}
+.nav-link:hover::after,
+.nav-link[aria-current="location"]::after {
+  transform: scaleX(1);
+}
+
+/* Icon shift on hover */
+.group:hover .icon-shift {
+  transform: translateX(3px);
+}
+.group:hover .icon-shift-diag {
+  transform: translate(2px, -2px);
+}
+.icon-shift,
+.icon-shift-diag {
+  transition: transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* ───────────── View Transition (theme reveal) ───────────── */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(root) {
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 9999;
+}
+
+/* ───────────── Reduced motion ───────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .brut-interactive:hover,
+  .brut-interactive:active {
+    translate: 0 0;
+  }
+}
+
+/* Scrollbar (subtle, dark-friendly) */
+@supports (scrollbar-color: auto) {
+  html {
+    scrollbar-color: var(--border) transparent;
+  }
+}

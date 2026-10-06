@@ -1,0 +1,124 @@
+{
+  "generator": "Built-in image generation",
+  "format": "WebP",
+  "quality": 82,
+  "style": "Warm amber practical lighting, cool ink-blue shadows, charcoal, editorial realism, film grain; separate scene artwork, no flattened reference page.",
+  "assets": [
+    {
+      "name": "desk",
+      "file": "public/images/scrapbook/desk.webp"
+    },
+    {
+      "name": "paper",
+      "file": "public/images/scrapbook/paper.webp"
+    },
+    {
+      "name": "take-apart",
+      "file": "public/images/scrapbook/take-apart.webp"
+    },
+    {
+      "name": "fix-it",
+      "file": "public/images/scrapbook/fix-it.webp"
+    },
+    {
+      "name": "build-it",
+      "file": "public/images/scrapbook/build-it.webp"
+    },
+    {
+      "name": "secure-it",
+      "file": "public/images/scrapbook/secure-it.webp"
+    },
+    {
+      "name": "gym",
+      "file": "public/images/scrapbook/gym.webp"
+    },
+    {
+      "name": "swim",
+      "file": "public/images/scrapbook/swim.webp"
+    },
+    {
+      "name": "football",
+      "file": "public/images/scrapbook/football.webp"
+    },
+    {
+      "name": "drawing",
+      "file": "public/images/scrapbook/drawing.webp"
+    },
+    {
+      "name": "hardware",
+      "file": "public/images/scrapbook/hardware.webp"
+    },
+    {
+      "name": "ai",
+      "file": "public/images/scrapbook/ai.webp"
+    },
+    {
+      "name": "gaming",
+      "file": "public/images/scrapbook/gaming.webp"
+    },
+    {
+      "name": "fantasy",
+      "file": "public/images/scrapbook/fantasy.webp"
+    },
+    {
+      "name": "tactical",
+      "file": "public/images/scrapbook/tactical.webp"
+    },
+    {
+      "name": "heroes",
+      "file": "public/images/scrapbook/heroes.webp"
+    },
+    {
+      "name": "crime",
+      "file": "public/images/scrapbook/crime.webp"
+    },
+    {
+      "name": "animated",
+      "file": "public/images/scrapbook/animated.webp"
+    },
+    {
+      "name": "team",
+      "file": "public/images/scrapbook/team.webp"
+    },
+    {
+      "name": "music",
+      "file": "public/images/scrapbook/music.webp"
+    },
+    {
+      "name": "arabic-music",
+      "file": "public/images/scrapbook/arabic-music.webp"
+    },
+    {
+      "name": "koshari",
+      "file": "public/images/scrapbook/koshari.webp"
+    },
+    {
+      "name": "coffee",
+      "file": "public/images/scrapbook/coffee.webp"
+    },
+    {
+      "name": "feast",
+      "file": "public/images/scrapbook/feast.webp"
+    },
+    {
+      "name": "jasmine",
+      "file": "public/images/scrapbook/jasmine.webp"
+    },
+    {
+      "name": "road-ahead",
+      "file": "public/images/scrapbook/road-ahead.webp"
+    },
+    {
+      "name": "friends",
+      "file": "public/images/scrapbook/friends.webp"
+    },
+    {
+      "name": "survival",
+      "file": "public/images/scrapbook/survival.webp"
+    },
+    {
+      "name": "security-desk",
+      "file": "public/images/scrapbook/security-desk.webp"
+    }
+  ]
+}

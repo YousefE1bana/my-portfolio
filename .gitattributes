@@ -1,0 +1,12 @@
+* text=auto
+
+# Preserve downloadable evidence and media byte-for-byte on every platform.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.woff2 binary
+
+# Keep the supplied font license verbatim, including upstream whitespace.
+src/assets/Caveat-OFL.txt whitespace=-blank-at-eol
